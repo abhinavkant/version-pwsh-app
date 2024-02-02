@@ -7,6 +7,7 @@ namespace DotnetFormatExample
     {
         public int AddNumbers(int one, int two)
         {
+            string a = "Abhuinav";
             int finalNumber = 0;
 
             finalNumber = one + two;
