@@ -5,10 +5,10 @@
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <AssemblyVersion>0.2.0.28</AssemblyVersion>
-    <FileVersion>0.2.0.0</FileVersion>
-    <InformationalVersion>0.2.0-alpha.28+Branch.develop.Sha.ad63e99c977ffc985b090ef612bff26fd6766cd6</InformationalVersion>
-    <Version>0.2.0-alpha0028</Version>
+    <AssemblyVersion>0.2.0.30</AssemblyVersion>
+    <FileVersion>0.2.0.30</FileVersion>
+    <InformationalVersion>0.2.0-alpha.30</InformationalVersion>
+    <Version>0.2.0-alpha0030</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="JunitXml.TestLogger" Version="3.0.134" />
