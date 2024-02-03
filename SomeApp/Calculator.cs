@@ -30,5 +30,12 @@ namespace DotnetFormatExample
             finalNumber = one / two;
             return finalNumber;
         }
+
+        public int ModulasNumbers(int one, int two)
+        {
+            int finalNumber = 0;
+            finalNumber = one % two;
+            return finalNumber;
+        }
     }
 }

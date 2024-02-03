@@ -31,4 +31,11 @@ public class CalculatorTest
         var x = new Calculator();
         Assert.Equal(0, x.DivideNumbers(1, 2));
     }
+
+    [Fact]
+    public void ModulasNumbersTest()
+    {
+        var x = new Calculator();
+        Assert.Equal(0, x.ModulasNumbers(4, 2));
+    }
 }
