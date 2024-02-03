@@ -7,6 +7,9 @@ namespace DotnetFormatExample
             int finalNumber = 0;
             finalNumber = one + two;
 
+
+
+
             Console.WriteLine(finalNumber);
             return finalNumber;
         }
