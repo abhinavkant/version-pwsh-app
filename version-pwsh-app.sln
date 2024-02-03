@@ -5,7 +5,26 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeApp", "SomeApp\SomeApp.csproj", "{712BC1E7-84D3-469A-9945-8FC1E1CF88CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeApp.Test", "SomeApp.Test\SomeApp.Test.csproj", "{653F23C7-6863-49C8-BA6D-2B155F4557E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeApp.Test", "SomeApp.Test\SomeApp.Test.csproj", "{653F23C7-6863-49C8-BA6D-2B155F4557E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{0D006128-660F-4909-9B74-AA6267F5E6A9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		GitVersion.yml = GitVersion.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Husky", "Husky", "{D4B8028B-BFDA-451B-813C-49CB1EEDB2F1}"
+	ProjectSection(SolutionItems) = preProject
+		.husky\commit-msg = .husky\commit-msg
+		.husky\pre-commit = .husky\pre-commit
+		.husky\task-runner.json = .husky\task-runner.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csx", "csx", "{38CCE0DB-47CD-4A69-83C2-EDF8BC1A3C96}"
+	ProjectSection(SolutionItems) = preProject
+		.husky\csx\commit-lint.csx = .husky\csx\commit-lint.csx
+		.husky\csx\version-updater.csx = .husky\csx\version-updater.csx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +43,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38CCE0DB-47CD-4A69-83C2-EDF8BC1A3C96} = {D4B8028B-BFDA-451B-813C-49CB1EEDB2F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B51107EA-46ED-42CD-ACAD-CA7BAB7778C9}

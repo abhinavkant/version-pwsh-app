@@ -1,3 +1,4 @@
+
 namespace DotnetFormatExample
 {
     public class Calculator
@@ -5,14 +6,10 @@ namespace DotnetFormatExample
         public int AddNumbers(int one, int two)
         {
             int finalNumber = 0;
+
+
+
             finalNumber = one + two;
-
-
-
-            Console.WriteLine(finalNumber);
-
-
-
             return finalNumber;
         }
 
@@ -20,13 +17,6 @@ namespace DotnetFormatExample
         {
             int finalNumber = 0;
             finalNumber = one - two;
-
-
-
-            Console.WriteLine(finalNumber);
-
-
-
             return finalNumber;
         }
 
@@ -34,13 +24,27 @@ namespace DotnetFormatExample
         {
             int finalNumber = 0;
             finalNumber = one * two;
+            return finalNumber;
+        }
 
+        public double DivideNumbers(int one, int two)
+        {
+            double finalNumber = 0;
+            finalNumber = one / two;
+            return finalNumber;
+        }
 
+        public int ModulasNumbers(int one, int two)
+        {
+            int finalNumber = 0;
+            finalNumber = one % two;
+            return finalNumber;
+        }
 
-            Console.WriteLine(finalNumber);
-
-
-
+        public double LogNumbers(int one, int two)
+        {
+            double finalNumber = 0;
+            finalNumber = Math.Log(one, two);
             return finalNumber;
         }
     }
