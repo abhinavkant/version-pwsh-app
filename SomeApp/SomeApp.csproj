@@ -4,10 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>0.2.0.30</AssemblyVersion>
-    <FileVersion>0.2.0.30</FileVersion>
-    <InformationalVersion>0.2.0-alpha.30</InformationalVersion>
-    <Version>0.2.0-alpha0030</Version>
   </PropertyGroup>
   <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
     <Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
