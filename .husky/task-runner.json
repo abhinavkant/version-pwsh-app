@@ -31,9 +31,7 @@
             "--include",
             "${staged}"
          ],
-         "include": [
-            "*.cs"
-         ]
+         "include": []
       },
       {
          "name": "update-version",
