@@ -9,5 +9,5 @@
 using System.Reflection;
 
 [assembly: AssemblyFileVersion("0.2.0.0")]
-[assembly: AssemblyVersion("0.2.0.26")]
-[assembly: AssemblyInformationalVersion("0.2.0-alpha.26+Branch.develop.Sha.e27c78867f1a54ad8188cefbfa3cbcc3b9db14f8")]
+[assembly: AssemblyVersion("0.2.0.28")]
+[assembly: AssemblyInformationalVersion("0.2.0-alpha.28+Branch.develop.Sha.ad63e99c977ffc985b090ef612bff26fd6766cd6")]
