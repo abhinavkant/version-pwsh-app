@@ -10,6 +10,9 @@ namespace DotnetFormatExample
 
 
             Console.WriteLine(finalNumber);
+
+
+
             return finalNumber;
         }
     }
