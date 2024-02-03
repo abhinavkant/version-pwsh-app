@@ -38,4 +38,11 @@ public class CalculatorTest
         var x = new Calculator();
         Assert.Equal(0, x.ModulasNumbers(4, 2));
     }
+
+    [Fact]
+    public void LogNumbersTest()
+    {
+        var x = new Calculator();
+        Assert.Equal(2, x.LogNumbers(4, 2));
+    }
 }
