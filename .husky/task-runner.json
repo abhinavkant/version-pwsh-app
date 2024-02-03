@@ -36,6 +36,17 @@
          ]
       },
       {
+         "name": "dotnet-format",
+         "command": "dotnet",
+         "group": "pre-commit",
+         "args": [
+            "test"
+         ],
+         "include": [
+            "**/*.cs"
+         ]
+      },
+      {
          "name": "update-version",
          "command": "dotnet",
          "args": [
