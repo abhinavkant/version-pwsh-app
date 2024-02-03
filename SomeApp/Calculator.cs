@@ -15,5 +15,19 @@ namespace DotnetFormatExample
 
             return finalNumber;
         }
+
+        public int SubtractNumbers(int one, int two)
+        {
+            int finalNumber = 0;
+            finalNumber = one - two;
+
+
+
+            Console.WriteLine(finalNumber);
+
+
+
+            return finalNumber;
+        }
     }
 }
