@@ -17,4 +17,11 @@ public class CalculatorTest
         var x = new Calculator();
         Assert.Equal(-1, x.SubtractNumbers(1, 2));
     }
+
+    [Fact]
+    public void MultiplyNumbersTest()
+    {
+        var x = new Calculator();
+        Assert.Equal(2, x.MultiplyNumbers(1, 2));
+    }
 }
