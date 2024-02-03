@@ -36,7 +36,7 @@
          ]
       },
       {
-         "name": "dotnet-format",
+         "name": "dotnet-test",
          "command": "dotnet",
          "group": "pre-commit",
          "args": [
