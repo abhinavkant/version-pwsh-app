@@ -56,17 +56,6 @@
             "--args",
             "${args}"
          ]
-      },
-      //{
-      //   "name": "echo staged files",
-      //   "pathMode": "absolute",
-      //   "command": "cmd",
-      //   "group": "pre-commit",
-      //   "args": [
-      //      "/c",
-      //      "echo",
-      //      "${staged}"
-      //   ],
-      //}
+      }
    ]
 }
